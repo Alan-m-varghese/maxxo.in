@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxxo | Premium Car Care | Dark Edition</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .mobile-menu-btn {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="container">
+                <p>Welcome to Maxxo - Premium Car Care Products</p>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container header-grid">
+                <div class="logo">
+                    <h1>MAXX<span>O</span></h1>
+                </div>
+
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search for products...">
+                    <button type="button" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <div class="header-icons">
+                    <a href="#" class="icon-link hide-mobile"><i class="fa-regular fa-heart"></i><span
+                            class="badge">0</span></a>
+                    <a href="#" class="icon-link hide-mobile"><i class="fa-solid fa-code-compare"></i><span
+                            class="badge">0</span></a>
+                    <a href="#" class="icon-link cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="cart-info">
+                            <span class="badge">0</span>
+                            <span class="cart-text">Items</span>
+                        </div>
+                    </a>
+                    <a href="#" class="icon-link mobile-menu-btn"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <div class="container nav-container">
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Shop <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="assets/hero_banner_1777281874992.png" alt="Maxxo Hero Banner" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge-hero">Exclusive Collection</span>
+            <h2>Premium Car Care</h2>
+            <h1>Wash & Dry Care Combo</h1>
+            <p>Give your car a professional wash at home with our advanced high-foaming technology.</p>
+            <a href="#products" class="btn btn-primary">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="products" class="main-container container">
+        <div class="layout-grid">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-widget categories-widget">
+                    <h3>Products</h3>
+                    <ul class="category-list">
+                        <li><a href="#">Maxxo Premium Kit <span>(₹1299)</span></a></li>
+                        <li><a href="#">Maxxo Basic Kit <span>(₹999)</span></a></li>
+                        <li><a href="#">Black Guard Restoration <span>(₹499)</span></a></li>
+                        <li><a href="#">1200 GSM Microfiber Cloth <span>(₹399)</span></a></li>
+                        <li><a href="#">Foam Spray Bottle (2L) <span>(₹799)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget featured-widget">
+                    <h3>Best Seller</h3>
+                    <div class="deal-card">
+                        <img src="assets/maxxo_premium_kit_1777283107983.png" alt="Premium Kit">
+                        <h4>Maxxo Premium Kit</h4>
+                        <div class="price">
+                            <span class="current">₹1299.00</span>
+                            <span class="old">₹2399.00</span>
+                        </div>
+                        <div class="countdown">
+                            <div class="time-box"><span>12</span><small>HRS</small></div>
+                            <div class="time-box"><span>45</span><small>MIN</small></div>
+                            <div class="time-box"><span>30</span><small>SEC</small></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Products Area -->
+            <div class="products-area">
+                <div class="products-header">
+                    <ul class="product-tabs">
+                        <li class="active">All Products</li>
+                        <li>Kits</li>
+                        <li>Add-ons</li>
+                    </ul>
+                </div>
+
+                <div class="product-grid">
+                    <!-- Product 1: Premium Kit -->
+                    <div class="product-card" data-category="kits">
+                        <div class="product-badge sale">Best Seller</div>
+                        <div class="product-img-wrapper">
+                            <img src="assets/maxxo_premium_kit_1777283107983.png" alt="Premium Kit">
+                            <div class="product-actions">
+                                <button class="action-btn" title="Add to Wishlist"><i
+                                        class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn" title="Compare"><i
+                                        class="fa-solid fa-code-compare"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-title">Maxxo Premium Kit<br><small
+                                    style="color:var(--text-muted); font-size:12px; margin-top:5px; display:inline-block; font-weight:normal; line-height:1.2;">Foam
+                                    Sprayer, Ceramic Shampoo, 800 GSM Cloth, Wash Glove</small></a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <span>(124)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current">₹1299.00</span>
+                                <span class="old">₹2399.00</span>
+                            </div>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Basic Kit -->
+                    <div class="product-card" data-category="kits">
+                        <div class="product-badge hot">Sale</div>
+                        <div class="product-img-wrapper">
+                            <img src="assets/maxxo_basic_kit_1777283123609.png" alt="Basic Kit">
+                            <div class="product-actions">
+                                <button class="action-btn" title="Add to Wishlist"><i
+                                        class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn" title="Compare"><i
+                                        class="fa-solid fa-code-compare"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-title">Maxxo Basic Kit<br><small
+                                    style="color:var(--text-muted); font-size:12px; margin-top:5px; display:inline-block; font-weight:normal; line-height:1.2;">Foam
+                                    Sprayer, Shampoo, Free Microfiber Cloth</small></a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half-stroke"></i>
+                                <span>(89)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current">₹999.00</span>
+                                <span class="old">₹1299.00</span>
+                            </div>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Black Guard -->
+                    <div class="product-card" data-category="add-ons">
+                        <div class="product-badge sale">Hot</div>
+                        <div class="product-img-wrapper">
+                            <img src="assets/maxxo_black_guard_1777283137133.png" alt="Black Guard">
+                            <div class="product-actions">
+                                <button class="action-btn" title="Add to Wishlist"><i
+                                        class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn" title="Compare"><i
+                                        class="fa-solid fa-code-compare"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-title">Black Guard Plastic Restoration<br><small
+                                    style="color:var(--text-muted); font-size:12px; margin-top:5px; display:inline-block; font-weight:normal; line-height:1.2;">Restores
+                                    Shine, UV Protection</small></a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <span>(58)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current">₹499.00</span>
+                            </div>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Microfiber -->
+                    <div class="product-card" data-category="add-ons">
+                        <div class="product-img-wrapper">
+                            <img src="assets/maxxo_microfiber_1777283152477.png" alt="1200 GSM Cloth">
+                            <div class="product-actions">
+                                <button class="action-btn" title="Add to Wishlist"><i
+                                        class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn" title="Compare"><i
+                                        class="fa-solid fa-code-compare"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-title">1200 GSM Microfiber Cloth<br><small
+                                    style="color:var(--text-muted); font-size:12px; margin-top:5px; display:inline-block; font-weight:normal; line-height:1.2;">Ultra
+                                    Soft, High Water Absorption</small></a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half-stroke"></i>
+                                <span>(142)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current">₹399.00</span>
+                            </div>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Foam Sprayer -->
+                    <div class="product-card" data-category="add-ons">
+                        <div class="product-img-wrapper">
+                            <img src="assets/maxxo_foam_sprayer_1777283167191.png" alt="Foam Sprayer">
+                            <div class="product-actions">
+                                <button class="action-btn" title="Add to Wishlist"><i
+                                        class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn" title="Compare"><i
+                                        class="fa-solid fa-code-compare"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-title">Foam Spray Bottle (2L)<br><small
+                                    style="color:var(--text-muted); font-size:12px; margin-top:5px; display:inline-block; font-weight:normal; line-height:1.2;">High
+                                    Pressure, Adjustable Nozzle</small></a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                <span>(31)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current">₹799.00</span>
+                            </div>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Services Banner -->
+    <section class="services-banner">
+        <div class="container services-grid">
+            <div class="service-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div class="service-text">
+                    <h4>Free Shipping</h4>
+                    <p>On all orders over ₹999</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div class="service-text">
+                    <h4>Secure Payment</h4>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-headset"></i>
+                <div class="service-text">
+                    <h4>24/7 Support</h4>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-rotate-left"></i>
+                <div class="service-text">
+                    <h4>Return Policy</h4>
+                    <p>30 Days Return</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-col brand-info">
+                <div class="logo">
+                    <h2>MAXX<span>O</span></h2>
+                </div>
+                <p>Premium car care products for enthusiasts. Elevate your car care routine with Maxxo and experience
+                    the ultimate in automotive cleanliness and shine.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Car Interior Care</a></li>
+                    <li><a href="#">Car Exterior Care</a></li>
+                    <li><a href="#">Car Perfume</a></li>
+                    <li><a href="#">Drying Towel</a></li>
+                    <li><a href="#">Car Shampoo</a></li>
+                </ul>
+            </div>
+            <div class="footer-col newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on new products and special offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Maxxo. Designed by <a href="https://www.instagram.com/beehive_in/">Beehive.in</a>. All
+                    Rights Reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
