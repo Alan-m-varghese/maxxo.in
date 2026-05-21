@@ -5,7 +5,7 @@ const products = [
         mrp: "₹2399.00",
         offer: "₹1299.00",
         discount: "-45%",
-        images: ["images/premium_kit_maxxo.png", "images/premium1.jpeg", "images/premium2.jpeg", "images/premium3.jpeg"],
+        images: ["images/foam_spray_bottle_maxxo.jpg", "images/premium1.jpeg", "images/premium2.jpeg", "images/premium3.jpeg"],
         features: [
             "2L High Pressure Foam Sprayer",
             "200ml Ceramic Shampoo",
