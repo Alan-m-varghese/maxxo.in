@@ -22,7 +22,7 @@ const products = [
         mrp: "₹1299.00",
         offer: "₹999.00",
         discount: "-23%",
-        images: ["images/ogbase.png", "images/foam_spray_bottle_maxxo.jpg", "images/premium2.jpeg", "images/microfibre.png", "images/basekit.mp4"],
+        images: ["images/ogbase.png", "images/foam_spray_bottle_maxxo.jpg", "images/premium2.jpeg", "images/basecloth.jpeg", "images/basekit.mp4"],
         features: [
             "2L Foam Sprayer",
             "200ml Shampoo",
@@ -50,7 +50,7 @@ const products = [
     },
     {
         id: "microfiber-cloth",
-        name: "MAXXO 1200 GSM Cloth",
+        name: "MAXXO 800 GSM Cloth",
         mrp: "",
         offer: "₹399.00",
         discount: "",
@@ -61,7 +61,7 @@ const products = [
             "Dual Side Thick Fiber",
             "Perfect for Car & Bike"
         ],
-        description: "Experience swirl-free drying and detailing with our ultra-plush 1200 GSM Microfiber Cloth. Designed to absorb maximum water and buff away waxes effortlessly.",
+        description: "Experience swirl-free drying and detailing with our ultra-plush 800 GSM Microfiber Cloth. Designed to absorb maximum water and buff away waxes effortlessly.",
         reviews: { rating: 4.7, count: 340 },
         inStock: true
     },
