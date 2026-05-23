@@ -50,18 +50,18 @@ const products = [
     },
     {
         id: "microfiber-cloth",
-        name: "MAXXO 800 GSM Cloth",
+        name: "MAXXO 1200 GSM Cloth",
         mrp: "",
         offer: "₹399.00",
         discount: "",
-        images: ["images/microfibre.png", "images/microfiber_maxxo.png", "images/microfiber.png"],
+        images: ["images/1200microfibre.png", "images/microfiber_maxxo.png", "images/microfiber.png"],
         features: [
             "Ultra Soft & Scratch-Free",
             "High Water Absorption",
             "Dual Side Thick Fiber",
             "Perfect for Car & Bike"
         ],
-        description: "Experience swirl-free drying and detailing with our ultra-plush 800 GSM Microfiber Cloth. Designed to absorb maximum water and buff away waxes effortlessly.",
+        description: "Experience swirl-free drying and detailing with our ultra-plush 1200 GSM Microfiber Cloth. Designed to absorb maximum water and buff away waxes effortlessly.",
         reviews: { rating: 4.7, count: 340 },
         inStock: true
     },
