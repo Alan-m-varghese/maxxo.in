@@ -79,8 +79,24 @@ const products = [
             "Easy Pump Action",
             "Strong & Durable Build"
         ],
-        description: "Generate thick, clinging snow foam without a pressure washer. The MAXXO Foam Spray Bottle provides high-pressure foam action with a simple hand pump.",
-        reviews: { rating: 4.5, count: 95 },
+    },
+    {
+        id: "rain-repellent",
+        name: "MAXXO Rain Repellent",
+        mrp: "₹999.00",
+        offer: "₹449.00",
+        discount: "-55%",
+        images: ["images/rainreppelent1.jpeg", "images/rain2.jpeg"],
+        features: [
+            "Repels water and keeps visor/windshield clear in rainy conditions",
+            "Hydrophobic effect - water beads up and rolls off instantly",
+            "Anti-fog - prevents fogging for safer rides",
+            "Anti-dust & dirt - reduces dust, mud and grime build-up",
+            "Enhances visibility - provides long-lasting clarity and shine",
+            "Safe for all visors, windshields, side mirrors & glass"
+        ],
+        description: "MAXXO Rain Repellent, car rain repellent, windshield water repellent, hydrophobic glass coating, rain repellent for car windshield, anti fog glass coating, car glass water repellent, helmet visor rain repellent, windshield visibility enhancer, car mirror water repellent, premium car care product, glass protection coating, rainproof windshield solution, water beading technology, car windshield coating India, rain repellent for bike visor, car care accessories online, free microfibre cloth offer, cash on delivery car care product.",
+        reviews: { rating: 4.8, count: 142 },
         inStock: true
     }
 ];
