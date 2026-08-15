@@ -52,9 +52,9 @@ const products = [
         id: "microfiber-cloth",
         name: "MAXXO 1200 GSM Cloth",
         mrp: "",
-        offer: "₹399.00",
+        offer: "₹649.00",
         discount: "",
-        images: ["images/1200microfibre.png", "images/microfiber_maxxo.png", "images/microfiber.png"],
+        images: ["images/1200gsm.jpeg", "images/cargsm.jpeg"],
         features: [
             "Ultra Soft & Scratch-Free",
             "High Water Absorption",
@@ -86,7 +86,7 @@ const products = [
         mrp: "₹999.00",
         offer: "₹449.00",
         discount: "-55%",
-        images: ["images/rainreppelent1.jpeg", "images/rain2.jpeg"],
+        images: ["images/newrain.jpeg", "images/newrain1.jpeg","images/newrain2.jpeg"],
         features: [
             "Repels water and keeps visor/windshield clear in rainy conditions",
             "Hydrophobic effect - water beads up and rolls off instantly",
